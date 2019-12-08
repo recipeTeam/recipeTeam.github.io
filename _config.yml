@@ -1,0 +1,188 @@
+# --- General options --- #
+
+# url is the full website URL
+# baseurl is the website's URL without the hostname
+
+# If you are building a simple GitHub user page (http://username.github.io) then use these settings:
+#url: "https://uraplutonium.github.io/open-recipe/"
+#baseurl: ""
+
+# If you are building a GitHub project page then use these settings:
+url: "https://recipeTeam.github.io"
+#baseurl: ""
+
+# Name of website
+title: Mini Recipe | 迷你食谱
+
+# Short description of your site
+description: "Mini Recipe | Convenient recipe for daily cooking (迷你食谱 | 方便的家常菜菜谱)"
+
+# --- Navigation bar options --- #
+
+# List of links in the navigation bar
+navbar-links:
+  RICE:
+     - 卤肉饭(port rice): "2019-12-09-pork-belly-over-rice/"
+  MAIN COURSE:
+     - 温泉蛋牛丼(gyudon): "2019-12-08-tsukimi-gyudon/"
+     - 茶叶蛋(eggs): "2019-12-07-tea-eggs/"
+  BAKING:
+     - 培根裹鸡蛋布丁(bacon): "2019-12-05-bacon-wrapped-egg-pudding/"
+     - 烤奶油土豆肉末(creamy): "2019-12-06-creamy-potato-and-meat-grain/"
+  SOUP:
+     - 胡萝卜梨汤(carrot): "2019-12-07-carrot-and-pear-soup/"
+  FITNESS:
+     - 香菇扒青菜(mushrooms): "2019-12-07-blanched-bok-choy-with-shiitake-mushrooms/"
+     - 番茄炒蛋(tomatoes): "2019-12-07-tomatoes-and-eggs/"
+     - 桃子冰茶(tea): "2019-12-07-peach-iced-tea/"
+  ABOUT: "about/"
+
+# Image to show in the navigation bar - image must be a square (width = height)
+# Remove this parameter if you don't want an image in the navbar
+avatar: "/img/fishchips.png"
+
+# If you want to have an image logo in the top-left corner instead of the title text,
+# then specify the following parameter
+# title-img: /path/to/image
+
+# --- Footer options --- #
+
+# Change all these values or delete the ones you don't want.
+# Important: you must keep the "name" parameter, everything else you can remove
+author:
+  name: PengyuDai, YufeiDeng, ShuxinTan
+  email: "pengyudaii@qq.com"
+  github: PengyuDai
+  facebook: Pengyu Dai
+  twitter: lalaa
+  linkedin: lalaa
+
+# Select which links to show in the footer
+footer-links-active:
+  email: true
+  github: true
+  facebook: true
+  twitter: false
+  linkedin: false
+  rss: true
+
+# Select which share links to show in posts
+share-links-active:
+  qq: true
+  wechat: true
+  facebook: true
+  twitter: true
+  linkedin: true
+  google: false
+
+# How to display the link to the website in the footer
+# Remove this if you don't want a link in the footer
+# url-pretty: "https://github.com/uraplutonium/open-recipe"
+
+# Excerpt Word Length
+# Truncates the excerpt to the specified number of words on the index page
+excerpt_length: 50
+
+# Character used to separate site title and description in HTML document title
+# and RSS feed title
+title-separator: "-"
+
+# --- Don't need to touch anything below here (but you can if you want) --- #
+
+# Output options (more information on Jekyll's site)
+timezone: "America/Vancouver"
+markdown: kramdown
+highlighter: rouge
+permalink: /:year-:month-:day-:title/
+paginate: 50
+
+kramdown:
+  input: GFM
+
+# Default YAML values (more information on Jekyll's site)
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true  # add comments to all blog posts
+      social-share: true # add social media sharing buttons to all blog posts
+  -
+    scope:
+      path: "" # all files
+    values:
+      layout: "page"
+      show-avatar: true
+
+# Use tags pages (not recommended if you are deploying via GitHub pages, only set to true if deploying locally with ruby)
+link-tags: false
+
+# Exclude these files from production site
+exclude:
+  - CNAME
+  - Dockerfile
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - Vagrantfile
+
+# prose.io config
+prose:
+  rooturl: '_posts'
+  media: 'img'
+  ignore:
+    - 404.html
+    - LICENSE
+    - feed.xml
+    - _config.yml
+    - /_layouts
+    - /_includes
+    - /css
+    - /img
+    - /js
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Post title"
+          placeholder: "Title"
+          alterable: true
+      - name: "subtitle"
+        field:
+          element: "textarea"
+          label: "Subtitle"
+          placeholder: "A description of your post."
+          alterable: true
+      - name: "date"
+        field:
+          element: "text"
+          label: "Date"
+          help: "Enter date of post."
+          placeholder: "yyyy-mm-dd"
+          alterable: true
+      - name: "image"
+        field:
+          element: "text"
+          label: "Image"
+          help: "Add a thumbnail image to your post."
+          placeholder: "Thumbnail"
+          alterable: true
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Publish"
+          help: "Check to publish post, uncheck to hide."
+
+gems:
+  - jekyll-paginate
+
+# Beautiful Jekyll / Dean Attali
+# 2fc73a3a967e97599c9763d05e564189
