@@ -8,14 +8,14 @@
 #baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
-url: "https://uraplutonium.github.io/open-recipe/"
-baseurl: "/open-recipe"
+url: "https://recipeTeam.github.io"
+#baseurl: ""
 
 # Name of website
-title: 开源食谱
+title: Mini Recipe | 迷你食谱
 
 # Short description of your site
-description: "Open Recipe - 任何人都能分享和改进美食制作方法的食谱"
+description: "Mini Recipe | Convenient recipe for daily cooking (迷你食谱 | 方便的家常菜菜谱)"
 
 # --- Navigation bar options --- #
 
@@ -35,6 +35,8 @@ navbar-links:
      - 胡萝卜梨汤: "2018-09-29-carrot-and-pear-soup/"
   饮品:
      - 桃子冰茶: "2018-09-29-peach-iced-tea/"
+  fitness:
+     - aaaa: ""
   关于: "about/"
 
 # Image to show in the navigation bar - image must be a square (width = height)
@@ -50,12 +52,12 @@ avatar: "/img/fishchips.png"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Felix Ding
-  email: "uraplutonium@yandex.com"
-  github: uraplutonium
-  facebook: uraplutonium
-  twitter: Felix__Ting
-  linkedin: 飞-丁-26273b32
+  name: PengyuDai, YufeiDeng, ShuxinTan
+  email: "pengyudaii@qq.com"
+  github: PengyuDai
+  facebook: Pengyu Dai
+  twitter: lalaa
+  linkedin: lalaa
 
 # Select which links to show in the footer
 footer-links-active:
@@ -63,7 +65,7 @@ footer-links-active:
   github: true
   facebook: true
   twitter: false
-  linkedin: true
+  linkedin: false
   rss: true
 
 # Select which share links to show in posts
