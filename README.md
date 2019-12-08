@@ -1,5 +1,5 @@
-## Open Recipe 开源食谱
+## Mini Recipe
 
-Open Recipe is a recipe that anyone can share and modify the methods of making delicious foods.
+Convenient recipe for daily cooking
 
-开源食谱是一种任何人都能够分享和改进美食制作方法的食谱。
+方便的家常菜食谱
