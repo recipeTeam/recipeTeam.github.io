@@ -21,7 +21,7 @@ description: "Mini Recipe | Convenient recipe for daily cooking (迷你食谱 | 
 
 # List of links in the navigation bar
 navbar-links:
-  主食:
+  rice:
      - 卤肉饭(aaaaaaaa): "2018-11-09-pork-belly-over-rice/"
      - 温泉蛋牛丼: "2019-12-08-tsukimi-gyudon/"
   主菜:
