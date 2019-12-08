@@ -35,8 +35,6 @@ navbar-links:
      - 胡萝卜梨汤: "2018-09-29-carrot-and-pear-soup/"
   饮品:
      - 桃子冰茶: "2018-09-29-peach-iced-tea/"
-  fitness:
-     - aaaa: ""
   关于: "about/"
 
 # Image to show in the navigation bar - image must be a square (width = height)
