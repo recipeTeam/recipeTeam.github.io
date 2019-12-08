@@ -3,7 +3,7 @@ layout: post
 title: 培根裹鸡蛋布丁
 subtitle: Bacon wrapped Egg Pudding
 image: /img/bacon-wrapped-egg-pudding.png
-tags: [烘培]
+tags: [BAKING]
 comments: true
 ---
 

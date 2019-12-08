@@ -3,7 +3,7 @@ layout: post
 title: 温泉蛋牛丼
 subtitle: Tsukimi Gyudon
 image: /img/tsukimi-gyudon.png
-tags: [主食]
+tags: [MAIN COURSE]
 comments: true
 ---
 

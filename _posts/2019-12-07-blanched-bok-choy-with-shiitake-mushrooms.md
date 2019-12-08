@@ -3,7 +3,7 @@ layout: post
 title: 香菇扒青菜
 subtitle: Blanched Bok Choy with Shiitake Mushrooms
 image: /img/blanched-bok-choy-with-shiitake-mushrooms.png
-tags: [主菜]
+tags: [FITNESS]
 comments: true
 ---
 

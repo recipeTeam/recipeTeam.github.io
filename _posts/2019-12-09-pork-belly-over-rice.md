@@ -4,7 +4,7 @@ title: 卤肉饭
 subtitle: Pork Belly over Rice
 image: /img/pork-belly-over-rice.png
 tags: [RICE]
-comments: false
+comments: true
 ---
 
 ![](https://recipeTeam.github.io/img/pork-belly-over-rice.png)
