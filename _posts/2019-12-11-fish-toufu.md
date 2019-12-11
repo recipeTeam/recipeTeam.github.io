@@ -2,7 +2,7 @@
 layout: post
 title: 鲫鱼豆腐汤
 subtitle: TOUFU FISH
-image: /img/creamy-potato-and-meat-grain.png
+image: /img/peach-iced-tea.png
 tags: [FITNESS]
 comments: true
 ---
